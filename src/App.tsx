@@ -1,5 +1,5 @@
 import {
-  IonApp, IonLoading
+  IonApp, IonItem, IonLoading
 } from '@ionic/react';
 import { Redirect, Route, Switch} from 'react-router-dom';
 import React from 'react';
@@ -42,6 +42,7 @@ return (
               <NotFoundPage/>
           </Route>
           </Switch>
+          <IonItem></IonItem>
          </IonReactRouter>
         </AuthContext.Provider>
     </IonApp>
