@@ -42,7 +42,7 @@ return (
               <NotFoundPage/>
           </Route>
           </Switch>
-          <IonItem></IonItem>
+         
          </IonReactRouter>
         </AuthContext.Provider>
     </IonApp>
